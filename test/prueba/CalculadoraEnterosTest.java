@@ -43,10 +43,10 @@ public class CalculadoraEnterosTest {
     @Test
     public void testSuma() {
         System.out.println("suma");
-        int a = 5;
+        int a = 8;
         int b = 7;
         CalculadoraEnteros instance = new CalculadoraEnteros();
-        int expResult = 5+7;
+        int expResult = 8+7;
         int result = instance.suma(a, b);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
